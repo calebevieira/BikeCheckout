@@ -129,7 +129,7 @@ body #wrap .buy:not(input):after {
   transform: translateY(200px);
 }
 body #wrap .buy:before {
-  content: "Checkout";
+  content: "Pagamento";
   width: 100%;
   height: 100%;
   display: flex;
@@ -145,7 +145,7 @@ body #wrap .buy:before {
   }
   100% {
     opacity: 1;
-    content: "Checkout";
+    content: "Pagamento";
   }
 }
 @keyframes buynow {
@@ -154,7 +154,7 @@ body #wrap .buy:before {
   }
   100% {
     opacity: 1;
-    content: "Checkout";
+    content: "Pagamento";
   }
 }
 body #wrap input.initial {
@@ -238,12 +238,12 @@ body #wrap input.initial:checked ~ .buy:checked ~ .buy:before {
 }
 @-webkit-keyframes buynow2 {
   100% {
-    content: "Back";
+    content: "Voltar";
   }
 }
 @keyframes buynow2 {
   100% {
-    content: "Back";
+    content: "Voltar";
   }
 }
 @-webkit-keyframes bounceback {

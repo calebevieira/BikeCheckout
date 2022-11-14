@@ -1,1 +1,1 @@
-# Escolha de pneus pra bike e direcionando ao checkout
+# Escolha de pneus pra bike e direcionando ao pagamento
